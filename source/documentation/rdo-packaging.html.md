@@ -67,8 +67,8 @@ Packaging resources for OpenStack services are now hosted in the
 
 The layout used for branches is:
 
- * `rpm-<master>` = tracks upstream master branch (Delorean)
- * `rpm-<release>` = tracks upstream stable/<release> branch (Delorean)
+ * `rpm-<master>` = tracks upstream master branch (DLRN)
+ * `rpm-<release>` = tracks upstream stable/<release> branch (DLRN)
  * `rdo-<release>` = based upon rpm-<release> and used to build RDO stable packages
 
 Clients and general-purpose libraries are still **included** in Fedora.
@@ -215,11 +215,13 @@ See [rdopkg on github](https://github.com/redhat-openstack/rdopkg) and also
 ## Master Packaging Guide
 
 In order to build an `RPM` with the master packaging you'll need to
-install [delorean](https://github.com/openstack-packages/delorean),
+install [DLRN](https://github.com/openstack-packages/dlrn),
 following the instructions described in this
-[README](https://github.com/openstack-packages/delorean/blob/master/README.rst).
+[README](https://github.com/openstack-packages/dlrn/blob/master/README.rst).
 
 ### Run Delorean
+
+**TODO**: Update this once commands have been update.
 
 Run `delorean` for the package you are trying to build.
 
@@ -266,12 +268,12 @@ To look at all open patches for the upstream packaging simply use the following 
 There are a number of expected differences between the master packaging and
 the packaging in rawhide
 
-* The `delorean` packaging has had `Version:` and `Release:` fields
-  both set to `XXX` in the `delorean` packaging as we take both of
+* The `DLRN` packaging has had `Version:` and `Release:` fields
+  both set to `XXX` in the `DLRN` packaging as we take both of
   these from the tags set on the git repositories
 
 * Because we are packaging master, patches aren't backported into the
-  `delorean` packaging
+  `DLRN` packaging
 
 * All of the master specs contain a reference to `%{upstream_version}`
   in the `%setup macro`, this is because the subdirectory contained in
@@ -288,7 +290,7 @@ the packaging in rawhide
 * In `%files` avoid using `%{version}` and use instead wildcard `*`
 
 To Assist in identifing difference the report being output by the
-production `delorean` includes a spec delta link showing a diff
+production `DLRN` includes a spec delta link showing a diff
 between the two repositories:
 
 * [Fedora 23](http://trunk.rdoproject.org/f21/report.html)

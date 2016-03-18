@@ -27,7 +27,7 @@ I am also involved in Python3 porting and including test requirements for RDO pa
 
 In last three months, I worked with the CERN guys to package Magnum and Magnum client, where I learned how a new OpenStack service is packaged and imported in RDO.
 
-Apart from that, I am contributing to the Delorean Project which powers the RDO CI and the RDO website during DOC and RDO test days. I've been also maintaining 4 [RDO packages](https://github.com/redhat-openstack/rdoinfo/blob/master/rdo.yml).
+Apart from that, I am contributing to the DLRN Project which powers the RDO CI and the RDO website during DOC and RDO test days. I've been also maintaining 4 [RDO packages](https://github.com/redhat-openstack/rdoinfo/blob/master/rdo.yml).
 
 **So, is contributing to RDO easy?**
 Yes.
@@ -41,7 +41,7 @@ Yes.
 * Participate in RDO Docs day and Mitaka RDO test days.
 * Help in answering OpenStack Questions on [ask.openstack.org](https:ask.openstack.org)
 * Learn RPM packaging and start reviewing new package review bugs and fix the spec of RDO Packaging.
-* Know Python, contribute to [Delorean](https://github.com/openstack-packages/delorean) and [rdopkg](https://github.com/redhat-openstack/rdopkg) which powers the RDO packages development.
+* Know Python, contribute to [DLRN](https://github.com/openstack-packages/dlrn) and [rdopkg](https://github.com/redhat-openstack/rdopkg) which powers the RDO packages development.
 * Look for issues in the OpenStack services and feel free to report the issue to the OpenStack upstream.
 
 Lastly, contributing to RDO Project helps you to contribute to OpenStack upstream and also helps growing the RDO Community.

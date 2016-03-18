@@ -73,9 +73,9 @@ export http_proxy=http://[proxy]:[port]
 export https_proxy=http://[proxy]:[port]
 export DIB_CLOUD_IMAGES="http://cloud.centos.org/centos/7/images/"
 export BASE_IMAGE_FILE="CentOS-7-x86_64-GenericCloud-1511.qcow2"
-export DELOREAN_TRUNK_REPO="http://trunk.rdoproject.org/centos7-liberty/current/"
-export USE_DELOREAN_TRUNK=1
-export DELOREAN_REPO_FILE="delorean.repo"
+export DLRN_TRUNK_REPO="http://trunk.rdoproject.org/centos7-liberty/current/"
+export USE_DLRN_TRUNK=1
+export DLRN_REPO_FILE="dlrn.repo"
 ~~~
 
 ~~~
